@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Dataset</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Home</div>
+<div class="menu-item"><a href="index.html">About&nbsp;me</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="https://gewu-lab.github.io/">GeWu&nbsp;Lab</a></div>
+<div class="menu-item"><a href="publication.html">Publications</a></div>
+<div class="menu-item"><a href="dataset.html">Dataset</a></div>
+<div class="menu-item"><a href="project.html">Projects</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Dataset</h1>
+</div>
+<h2>MUSIC-Synthetic dataset</h2>
+<table class="imgtable"><tr><td>
+<img src="ims/nips2020_syn.png" alt="alt text" height="125px" />&nbsp;</td>
+<td align="left"><p>We build category-balanced multi-source videos by artificially synthesizing solo videos from the <a href="https://github.com/roudimit/MUSIC_dataset">MUSIC dataset</a> to facilitate the learning and evaluation of multiple-soundings-sources localization in the cocktail-party scenario. Concretely, we first randomly choose four 1-second solo audiovisual pairs of different categories, then mix random two of the four audio clips with jittering as the multi-source audio waveform, and concatenate four frames of these clips as the multi-source video frame. That is, in the synthesized audiovisual pairs, there are two instruments making sound while the other two are silent. Therefore, this synthesized dataset is quite proper for the evaluation of discriminatively sounding object localization and we also find it generalizes well in the real-world scenarios. For more details about this dataset, please refer to our paper. <a href="https://zenodo.org/record/4079386#.X4PFodozbb2">Download this dataset here</a></p>
+</td></tr></table>
+<h2>AuDio Visual Aerial sceNe reCognition datasEt (ADVANCE)</h2>
+<table class="imgtable"><tr><td>
+<img src="ims/ADVANCE.jpeg" alt="alt text" height="125px" />&nbsp;</td>
+<td align="left"><p>AuDio Visual Aerial sceNe reCognition datasEt (ADVANCE) consists of 5,075 geotagged aerial imagesound pairs involving 13 scene classes. 
+The audio data are collected from <a href="https://freesound.org/browse/geotags/">Freesound</a>, where we remove the audio recordings that are shorter than 2 seconds, and extend those that are between 2 and 10 seconds to longer than 10 seconds by replicating the audio content. From the location information, we can download the updated aerial images from <a href="https://earthengine.google.com/">Google Earth</a>. Finally, the paired data are labeled according to the annotations from <a href="https://www.openstreetmap.org/">OpenStreetMap</a>, also using the attached geographic coordinates from the audio recording. Note that, this dataset covers a large variety of scenes from across the world. For more details about this dataset, please refer to <a href="https://arxiv.org/pdf/2005.08449.pdf">our paper</a>. <a href="https://zenodo.org/record/3828124">Download this dataset here</a></p>
+</td></tr></table>
+<h2>auDIoviSual Crowd cOunting dataset (DISCO)</h2>
+<table class="imgtable"><tr><td>
+<img src="ims/DISCO.jpeg" alt="alt text" height="105px" />&nbsp;</td>
+<td align="left"><p>AuDIoviSual Crowd cOunting dataset (DISCO) consists of 1,935 images and audios from various typical scenes, a total of 170, 270 instances annotated with the head locations. The average, minimum and maximum number of people for each image are 87.99, 1 and 709, respectively. The motivation of building this dataset is that <b> the louder we perceive the ambient sound to be, the more people there are</b>. In a summary, DISCO dataset has three advantages comparing with others: 1) both audio and visual signals are provided; 2) cover different illuminations; and 3) a large variety of scenes are considered. For more details about this dataset, please refer to <a href="https://arxiv.org/abs/2005.07097">our paper</a>. <a href="https://zenodo.org/record/3828468">Download this dataset here</a></p>
+</td></tr></table>
+<h2>Shuttersong Dataset</h2>
+<table class="imgtable"><tr><td>
+<img src="ims/shuttersong.jpeg" alt="alt text" height="100px" />&nbsp;</td>
+<td align="left"><p>Shuttersong Dataset contains amounts of pairwise images and songs (lyrics) collected from the Shuttersong application. <a href="www.shuttersong.com">Shuttersong</a> is a social sharing software, just like Instagram2. However, the shared content contains not only an image, but also a corresponding song clip selected by users, which is for strengthening the expression purpose. A relevant mood can also be appended by users. We collect almost the entire updated data from Shuttersong, which consists of 36,646 pairs of images and song clips. Some optional mood and favorite count information are also included. For more details about this dataset, please refer to <a href="papers/2017_image2song.pdf">our paper</a>. <a href="https://drive.google.com/open?id=0B2N8XiDRrEgISXFJSXBEMWpUMDA">Download this dataset here</a></p>
+</td></tr></table>
+<div id="footer">
+<div id="footer-text">
+Page generated 2022-05-23 09:41:36 CST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

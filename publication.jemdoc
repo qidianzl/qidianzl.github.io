@@ -1,0 +1,258 @@
+# jemdoc: menu{MENU}{publication.html}
+= Publications
+
+== Preprint 
+
+~~~
+{}{img_left}{ims/ssl-rs.png}{alt text}{150px}{80px}{}
+[https://arxiv.org/abs/2108.00688 Self-supervised Audiovisual Representation Learning for Remote Sensing Data] \n
+[https://www.youtube.com/watch?v=gD_fNJPBWhs Demo (Look to Hear Our Planet)] \n
+Konrad Heidler, Lichao Mou, *Di Hu\**, Pu Jin, Guangyao Li, Chuang Gan, Ji-Rong Wen, Xiao Xiang Zhu\n
+~~~
+
+~~~
+{}{img_left}{ims/cmd.png}{alt text}{150px}{80px}{}
+[https://arxiv.org/abs/2106.01489 Not All Knowledge Is Created Equal] \n
+Ziyun Li, Xinshao Wang, Haojin Yang, *Di Hu*, Neil M Robertson, David A Clifton, Christoph Meinel\n
+~~~
+
+~~~
+{}{img_left}{ims/tred.png}{alt text}{150px}{80px}{}
+[https://arxiv.org/abs/2010.08532 Towards Accurate Knowledge Transfer via Target-awareness Representation Disentanglement] \n
+Xingjian Li, *Di Hu*, Xuhong Li, Haoyi Xiong, Zhi Ye, Zhipeng Wang, Chengzhong Xu, Dejing Dou\n
+~~~
+
+~~~
+{}{img_left}{ims/audioCounting.png}{alt text}{150px}{80px}{}
+[https://arxiv.org/abs/2005.07097 Ambient Sound Helps: Audiovisual Crowd Counting in Extreme Conditions] \n
+[https://github.com/qingzwang/AudioVisualCrowdCounting Code], [https://zenodo.org/record/3828468 Dataset]\n
+*Di Hu*\*, Lichao Mou\*, Qingzhong Wang\*, Junyu Gao, Yuansheng Hua, Dejing Dou, Xiao Xiang Zhu\n
+~~~
+
+~~~
+{}{img_left}{ims/curriculum.png}{alt text}{150px}{80px}{}
+[https://arxiv.org/abs/2001.09414 Curriculum Audiovisual Learning] \n
+*Di Hu*, Zheng Wang, Haoyi Xiong, Dong Wang, Feiping Nie, Dejing Dou\n
+~~~
+
+
+== Conference Papers
+~~~
+{}{img_left}{ims/cvpr2022-balance.png}{alt text}{150px}{80px}{}
+[https://arxiv.org/abs/2203.15332 Balanced Multimodal Learning via On-the-fly Gradient Modulation] \n
+[https://github.com/GeWu-Lab/OGM-GE_CVPR2022 Code] \n
+Xiaokang Peng\*, Yake Wei\*, Andong Deng, Dong Wang, *Di Hu*\n
+CVPR 2022. *Oral Presentation*
+~~~
+
+~~~
+{}{img_left}{ims/cvpr2022-avqa.png}{alt text}{150px}{80px}{}
+[https://arxiv.org/abs/2203.14072 Learning to Answer Questions in Dynamic Audio-Visual Scenarios] \n
+[https://gewu-lab.github.io/MUSIC-AVQA/ Project Page], [https://github.com/GeWu-Lab/MUSIC-AVQA Code] \n
+Guangyao Li\*, Yake Wei\*, Yapeng Tian\*, Chenliang Xu, Ji-Rong Wen, *Di Hu*\n
+CVPR 2022. *Oral Presentation*
+~~~
+
+~~~
+{}{img_left}{ims/aaai2022-erasing.png}{alt text}{150px}{80px}{}
+[https://arxiv.org/abs/2202.06406 Visual Sound Localization in-the-Wild by Cross-Modal Interference Erasing] \n
+Xian Liu, Rui Qian, Hang Zhou, *Di Hu*, Weiyao Lin, Ziwei Liu, Bolei Zhou, Xiaowei Zhou\n
+[https://github.com/alvinliu0/Visual-Sound-Localization-in-the-Wild Code]\n
+AAAI 2022
+~~~
+
+~~~
+{}{img_left}{ims/aaai2022-struc.png}{alt text}{150px}{80px}{}
+[https://www.aaai.org/AAAI22Papers/AAAI-11517.ZhouD.pdf SepFusion: Finding Optimal Fusion Structures for Visual Sound Separation] \n
+Dongzhan Zhou, Xinchi Zhou, *Di Hu\^*, Hang Zhou, Lei Bai, Ziwei Liu, Wanli Ouyang (\^Corresponding Author) \n
+AAAI 2022
+~~~
+
+~~~
+{}{img_left}{ims/cvpr2021_ccol.png}{alt text}{150px}{80px}{}
+[https://arxiv.org/pdf/2104.02026.pdf Cyclic Co-Learning of Sounding Object Visual Grounding and Sound Separation] \n
+[https://github.com/YapengTian/CCOL-CVPR21 Code] \n
+Yapeng Tian, *Di Hu\^*, Chenliang Xu (\^Corresponding Author)\n 
+CVPR 2021
+~~~
+
+~~~
+{}{img_left}{ims/cvpr2021_uda.png}{alt text}{150px}{80px}{}
+[https://arxiv.org/abs/2104.12961 Unsupervised Multi-Source Domain Adaptation for Person Re-Identification] \n
+[https://github.com/Neverland610/MSUDA_REID Code]\n
+Zechen Bai, Zhigang Wang, Jian Wang, *Di Hu\^*, Errui Ding\^ (\^Corresponding Author) \n
+CVPR 2021. *Oral Presentation*
+~~~
+
+~~~
+{}{img_left}{ims/DTGRM.png}{alt text}{150px}{80px}{}
+[https://arxiv.org/abs/2012.07508 Temporal Relational Modeling with Self-Supervision for Action Segmentation] \n
+[https://github.com/redwang/DTGRM Code]\n
+Dong Wang, *Di Hu\^*, Xingjian Li, Dejing Dou (\^Corresponding Author) \n
+AAAI 2021
+~~~
+
+~~~
+{}{img_left}{ims/nips2020.jpg}{alt text}{150px}{80px}{}
+[https://arxiv.org/pdf/2010.05466.pdf Discriminative Sounding Objects Localization via Self-supervised Audiovisual Matching] \n
+[https://github.com/DTaoo/Discriminative-Sounding-Objects-Localization Code], [https://zenodo.org/record/4079386\#.X4PFodozbb2 Dataset], [https://youtu.be/XRU-R32t6rU Demo]\n
+*Di Hu*, Rui Qian, Minyue Jiang, Xiao Tan, Shilei Wen, Errui Ding, Weiyao Lin, Dejing Dou\n
+NeurIPS 2020
+~~~
+
+~~~
+{}{img_left}{ims/AVSC.jpeg}{alt text}{150px}{80px}{}
+[https://arxiv.org/pdf/2005.08449.pdf Cross-Task Transfer for Geotagged Audiovisual Aerial Scene Recognition] \n
+[https://github.com/DTaoo/Multimodal-Aerial-Scene-Recognition Code], [https://zenodo.org/record/3828124 Dataset] \n
+*Di Hu*, Xuhong Li, Lichao Mou, Pu Jin, Dong Chen, Liping Jing, Xiaoxiang Zhu, Dejing Dou\n
+ECCV 2020
+~~~
+
+~~~
+{}{img_left}{ims/MSSL_W.jpeg}{alt text}{150px}{80px}{}
+[https://arxiv.org/abs/2007.06355 Multiple Sound Sources Localization from Coarse to Fine] \n
+[https://github.com/shvdiwnkozbw/Multi-Source-Sound-Localization Code]\n
+Rui Qian, *Di Hu*, Heinrich Dinkel, Mengyue Wu, Ning Xu, Weiyao Lin\n
+ECCV 2020
+~~~
+
+~~~
+{}{img_left}{ims/voice.JPG}{alt text}{150px}{80px}{}
+[papers/2019_voice.pdf Listen to the Image] \n
+[papers/2019_voice_SM.zip Supplemental Material], [https://github.com/DTaoo/Congenitally-Blind-Model Code], [https://redwang.github.io/CVPR19/ Project page]\n
+*Di Hu*, Dong Wang, Xuelong Li, Feiping Nie, Qi Wang\n
+CVPR 2019
+~~~
+
+~~~
+{}{img_left}{ims/DMC.JPG}{alt text}{150px}{80px}{}
+[papers/2019_DMC.pdf Deep Multimodal Clustering for Unsupervised Audiovisual Learning] \n
+[papers/2019_DMC_SM.pdf Supplemental Material], [demo/DMC_demo.mp4 Demo], [https://github.com/DTaoo/DMC Code] \n
+*Di Hu*, Feiping Nie, Xuelong Li\n
+CVPR 2019
+~~~
+
+~~~
+{}{img_left}{ims/DMN.JPG}{alt text}{150px}{80px}{}
+[papers/2019_DMN.pdf Dense Multimodal Fusion for Hierarchically Joint Representation] \n
+*Di Hu*, Chengze Wang, Feiping Nie,  Xuelong Li\n
+ICASSP 2019. Lecture Presentation
+~~~
+
+~~~
+{}{img_left}{ims/lghsr.JPG}{alt text}{150px}{80px}{}
+[papers/2017_LGHSR.pdf Large Graph Hashing with Spectral Rotation] \n
+[code/2017_LGHSR.zip Code] \n
+Xuelong Li, *Di Hu*, Feiping Nie\n
+AAAI 2017
+~~~
+
+~~~
+{}{img_left}{ims/DBRC.JPG}{alt text}{150px}{80px}{}
+[papers/2018_DBRC.pdf Deep Binary Reconstruction for Cross-modal Hashing] \n
+[code/2017_DBRC.zip Code] \n
+Xuelong Li, *Di Hu*, Feiping Nie\n
+ACM MM 2017
+~~~
+
+~~~
+{}{img_left}{ims/image2song.JPG}{alt text}{150px}{80px}{}
+[papers/2017_image2song.pdf Image2song: Song Retrieval via Bridging Image Content and Lyric Words] \n
+[papers/2017_image2song_SM.pdf Supplemental Material], [demo/video_image2song.avi Demo], [https://drive.google.com/open?id=0B2N8XiDRrEgISXFJSXBEMWpUMDA Dataset] \n
+Xuelong Li, *Di Hu*, Xiaoqiang Lu\n
+ICCV 2017
+~~~
+
+~~~
+{}{img_left}{ims/deepSim.JPG}{alt text}{150px}{80px}{}
+[papers/2016_deepSim.pdf Multimodal Learning via Exploring Deep Semantic Similarity] \n
+*Di Hu*, Xiaoqiang Lu, Xuelong Li \n
+ACM MM 2016
+~~~
+
+~~~
+{}{img_left}{ims/avSpeech.JPG}{alt text}{150px}{80px}{}
+[papers/2016_avSpeech.pdf Temporal Multimodal Learning in Audiovisual Speech Recognition] \n
+*Di Hu*, Xuelong Li, Xiaoqiang Lu \n
+CVPR 2016
+~~~
+
+== Journal Papers
+~~~
+{}{img_left}{ims/tmm-avcurri.png}{alt text}{150px}{80px}{}
+Self-supervised Learning for Heterogeneous Audiovisual Scene Analysis \n
+*Di Hu*, Zheng Wang, Feiping Nie, Rong Wang, Xuelong Li\n
+IEEE TRANSACTIONS ON MULTIMEDIA (TMM) 2022
+~~~
+
+~~~
+{}{img_left}{ims/localize-pami.png}{alt text}{150px}{80px}{}
+[https://arxiv.org/abs/2112.11749 Class-aware Sounding Objects Localization via Audiovisual Correspondence] \n
+[https://gewu-lab.github.io/CSOL_TPAMI2021/ Project Page], [https://github.com/GeWu-Lab/CSOL_TPAMI2021 Code] \n
+*Di Hu*, Yake Wei, Rui Qian, Weiyao Lin, Ruihua Song, Ji-Rong Wen \n
+Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2021 \n
+~~~
+
+~~~
+{}{img_left}{ims/DeepLDAHashing.JPG}{alt text}{150px}{80px}{}
+Generalising Combinatorial Discriminant Analysis through Conditioning Truncated Rayleigh Flow \n
+Sijia Yang, Haoyi Xiong, *Di Hu*, Kaibo Xu, Licheng Wang, Peizhen Zhu, Zeyi Sun.\n
+Knowledge and Information Systems (KAIS) 2021
+~~~
+
+~~~
+{}{img_left}{ims/DeepLDAHashing.JPG}{alt text}{150px}{80px}{}
+[http://engine.scichina.com/doi/10.1360/SSI-2019-0175 Deep Linear Discriminant Analysis Hashing] \n
+[papers/2018_DLDAH_SM.pdf Supplemental Material], [code/DLDAH_code.zip Code]\n
+*Di Hu*, Feiping Nie,  Xuelong Li.\n
+SCIENTIA SINICA Informationis 2019
+~~~
+
+~~~
+{}{img_left}{ims/lghsr.JPG}{alt text}{150px}{80px}{}
+[papers/2019_DSH.pdf Discrete Spectral Hashing for Efficient Similarity Retrieval] \n
+*Di Hu*, Feiping Nie, Xuelong Li\n
+IEEE TRANSACTIONS ON IMAGE PROCESSING (TIP) 2019
+~~~
+
+~~~
+{}{img_left}{ims/DBRC.JPG}{alt text}{150px}{80px}{}
+[papers/2019_DBRC.pdf Deep Binary Reconstruction for Cross-modal Hashing] \n
+*Di Hu*, Feiping Nie, Xuelong Li\n
+IEEE TRANSACTIONS ON MULTIMEDIA (TMM) 2019
+~~~
+
+== Workshop Papers
+
+~~~
+{}{img_left}{ims/HAVL_W.jpeg}{alt text}{150px}{80px}{}
+[papers/2020_HAVL_W.pdf Heterogeneous Scene Analysis via Self-supervised Audiovisual Learning] \n
+[https://www.youtube.com/watch?v=kuClfGG0cFU Demo], [https://www.youtube.com/watch?v=-2qw9smT5Rw Video] \n
+*Di Hu*, Zheng Wang, Haoyi Xiong, Dong Wang, Feiping Nie, Dejing Dou\n
+CVPR Sight and Sound Workshop 2020
+~~~
+
+~~~
+{}{img_left}{ims/counting_W.jpeg}{alt text}{150px}{80px}{}
+[papers/2020_counting_W.pdf Does Ambient Sound Help? - Audiovisual Crowd Counting] \n
+[https://github.com/qingzwang/AudioVisualCrowdCounting Code], [https://zenodo.org/record/3828468 Dataset], [https://www.youtube.com/watch?v=bk8fm7t7RJU Video] \n
+*Di Hu*\*, Lichao Mou\*, Qingzhong Wang\*, Junyu Gao, Yuansheng Hua, Dejing Dou, Xiaoxiang Zhu\n
+CVPR Sight and Sound Workshop 2020
+~~~
+
+~~~
+{}{img_left}{ims/CCOL_W.jpeg}{alt text}{150px}{80px}{}
+[papers/2020_CCOL_W.pdf Co-Learn Sounding Object Visual Grounding and Visually Indicated Sound Separation in A Cycle] \n
+[https://www.youtube.com/watch?v=z4vvwbHG6pY Video] \n
+Yapeng Tian\*, *Di Hu*\*, Chenliang Xu\n
+CVPR Sight and Sound Workshop 2020
+~~~
+
+~~~
+{}{img_left}{ims/MSSL_W.jpeg}{alt text}{150px}{80px}{}
+[papers/2020_MSSL_W.pdf A Two-Stage Framework for Multiple Sound-Source Localization] \n
+[https://github.com/shvdiwnkozbw/Multi-Source-Sound-Localization Code], [https://www.youtube.com/watch?v=153xEWWjt-w Video] \n
+Rui Qian, *Di Hu*, Heinrich Dinkel, Mengyue Wu, Ning Xu, Weiyao Lin\n
+CVPR Sight and Sound Workshop 2020
+~~~
+
