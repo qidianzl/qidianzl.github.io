@@ -93,6 +93,7 @@ div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
 	border-bottom: 3px double gray;
+	width: 100%;
 }
 
 /* Reduce space if we begin the page with a title. */
@@ -124,6 +125,7 @@ h1, h2, h3 {
 	line-height: 1.0;
 	padding-top: 0.5em;
 	border-bottom: 1px solid #aaaaaa;
+	width: 100%;
 }
 
 h1 {

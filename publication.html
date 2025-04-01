@@ -6,6 +6,110 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <title>Publications</title>
+<style>
+    /* General style for publication list */
+    .publication-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 40px; /* Add space between themes */
+        width: 100%;
+    }
+
+    /* Theme title (e.g., AI in Brain Disease Modeling) */
+    .theme-title {
+        font-size: 24px;
+        margin-left: 10px;
+        font-weight: bold;
+        color: #527bbd;
+        margin-bottom: -18px;
+    }
+
+    /* Year Block - contains the line and year label */
+    .year-block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* Year line that spans the entire width */
+    .year-line {
+        border-bottom: 1px solid lightgray;
+        width: 100%;
+        position: relative;
+        margin-bottom: 10px; /* Space for the year label */
+    }
+
+    /* Year label on the right side */
+    .year {
+        position: absolute;
+        right: 10px;
+        top: -2px;
+        font-size: 32px;
+        font-weight: bold;
+        color: #004080;
+    }
+
+    /* Each individual publication (conference and paper info) */
+    .publication-item {
+        display: flex;
+        margin-bottom: 15px;
+        align-items: flex-start;
+        width: 85%;
+        position: relative;
+    }
+
+    /* Conference box on the left */
+    .conference-box-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 15px;
+        width: auto;
+        min-width: 240px;
+    }
+
+    .conference-box {
+        background-color: #004080;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 3px 6px;
+        border-radius: 5px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    /* Publication info on the right */
+    .publication-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .publication-info .title {
+        font-weight: bold;
+        color: #004080;
+    }
+
+    .publication-info .authors {
+        font-style: italic;
+    }
+
+    .publication-info .year {
+        color: #777;
+    }
+
+    .publication-info .additional_info {
+        font-style: italic;
+        font-weight: bold;
+        color: #FF0000;
+    }
+
+</style>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -14,107 +118,543 @@
 <div class="menu-category">Home</div>
 <div class="menu-item"><a href="index.html">About&nbsp;me</a></div>
 <div class="menu-category">Research</div>
-<!-- <div class="menu-item"><a href="https://ranger.uta.edu/~zhu/">MIND&nbsp;Lab</a></div> -->
 <div class="menu-item"><a href="publication.html">Publications</a></div>
-<!-- <div class="menu-item"><a href="dataset.html">Dataset</a></div> -->
-<!-- <div class="menu-item"><a href="project.html">Projects</a></div> -->
-
-<div class="menu-category">Interests</div>
-<div class="menu-item"><a href="">Reading</a></div>
-<div class="menu-item"><a href="">Travelling</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
 <h1>Publications</h1>
 </div>
-<h2><font style="margin-left: 10px">AI in Brain Disease Modeling</font></h2>
-<ol type="1">
-  <li><b>Zhang, L., </b> Na, S., Liu, T., Zhu, D. and Huang, J. (2023). <font style="color: #004080">Multimodal Deep Fusion in Hyperbolic Space for Mild Cognitive Impairment Study.</font> In <i> the 26th International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI).</i> (<b><font style="color: #f50707">Early Accepted, Rate: 13.6%; </font> <font style="color: #c203fc"> NIH-MICCAI STudent-Author Registration (STAR) Award; </font> <font style="color: #0432FF;"> Oral</font></b>)</li>
 
-  <li><b>Zhang, L., </b> Yu, X., Lyu, Y., Liu, T. and Zhu, D. (2023).  <font style="color: #004080">Representative Functional Connectivity Learning for Multiple Clinical Groups in Alzheimer’s Disease.</font> In <i> IEEE 20th International Symposium on Biomedical Imaging (ISBI). </i> 
+<!-- AI in Brain Disease Modeling Theme -->
+<div class="publication-list">
+  <div class="theme-title">AI for Brain Aging and Brain Disease</div>
 
-  <li><b>Zhang, L. </b>,  Wang, L., Liu, T., and Zhu, D. (2023). <font style="color: #004080">Disease2Vec: Representing Alzheimer’s Progression via Disease Embedding Tree.</font> <i> Pharmacological Research.</i> <b> (IF: 9.3) </b></li>
+  <!-- 2024 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div>
+    <span class="year">2024</span>
 
-  <li><b>Zhang, L.<sup>&#9768;</sup>, </b>  Qu, J., Ma, H., Chen, T., Liu, T., and Zhu, D. (2023). <font style="color: #004080">Exploring Alzheimer’s Disease: A Comprehensive Brain Connectome-Based Survey.</font> <i> Psychoradiology.</i> <b> &#9768; Corresponding Author. </b></li>
+    <!-- Publication Items for 2024 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">Pharmacological Research</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Disease2Vec: Representing Alzheimer’s Progression via Disease Embedding Tree</div>
+        <div class="authors"><b>Zhang, L.</b>, Wang, L., Liu, T., and Zhu, D.</div>
+        <div class="authors">Pharmacological Research 2024  <spam style="color:#22CE83; font-weight: bold;"> (IF: 9.3)</spam></div>
+      </div>
+    </div>
+  </div>
 
-  <li><b>Zhang, L., </b>  Wang, L., Gao, J., Risacher, S.L., Yan, J., Li, G., Liu, T. and Zhu, D. (2021). <font style="color: #004080">Deep fusion of brain structure-function in mild cognitive impairment.</font> <i> Medical Image Analysis (MedIA).</i> <b> (IF: 13.828) </b></li>
+  <!-- 2023 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div> <!-- Line spanning the entire width -->
+    <span class="year">2023</span>
 
-  <li><b>Zhang, L., </b>  Wang, L. and Zhu, D., (2020). <font style="color: #004080">Jointly Analyzing Alzheimer's Disease Related Structure-Function Using Deep Cross-Model Attention Network.</font> In <i> IEEE 17th International Symposium on Biomedical Imaging (ISBI).</i> <b> (<font style="color: #0432FF;">Oral</font>) </b></li>
+    <!-- Publication Items for 2023 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">MICCAI'23</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Multimodal Deep Fusion in Hyperbolic Space for Mild Cognitive Impairment Study</div>
+        <div class="authors"><b>Zhang, L.</b>, Na, S., Liu, T., Zhu, D. and Huang, J.</div>
+        <div class="authors">MICCAI 2023. </div>
+        <div class="additional_info">NIH-MICCAI Student-Author Registration (STAR) Award; <span style="color: #C45AEC;">Early Accepted (13.6%); </span> <span style="color: #FF8C00;">Oral</span></div>
+      </div>
+    </div>
 
-  <li><b>Zhang, L., </b>  Zaman, A., Wang, L., Yan, J. and Zhu, D. (2019). <font style="color: #004080">A Cascaded Multi-Modality Analysis in Mild Cognitive Impairment.</font> In <i> International Workshop on Machine Learning in Medical Imaging (MLMI).</i></li>
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">ISBI'23</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Representative Functional Connectivity Learning for Multiple Clinical Groups in Alzheimer’s Disease</div>
+        <div class="authors"><b>Zhang, L.</b>, Yu, X., Lyu, Y., Liu, T. and Zhu, D.</div>
+        <div class="authors">ISBI 2023</div>
+      </div>
+    </div>
 
-  <li>Yu, X., Scheel, N., <b>Zhang, L., </b>  Zhu, D.C., Zhang, R. and Zhu, D., (2021). <font style="color: #004080">Free water in T2 FLAIR white matter hyperintensity lesions.</font> <i> Alzheimer's \& Dementia.</i></li>
+  <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">Psychoradiology</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Exploring Alzheimer’s Disease: A Comprehensive Brain Connectome-Based Survey.</div>
+        <div class="authors"><b>Zhang, L.<sup>†</sup></b>, Qu, J., Ma, H., Chen, T., Liu, T., and Zhu, D.</div>
+        <div class="authors">Psychoradiology 2023. </span> <span>(† corresponding author)</span></div>
+      </div>
+    </div>
+  </div>
 
-  <li>Wang, L., <b>Zhang, L., </b> and Zhu, D., (2020). <font style="color: #004080">Learning Latent Structure Over Deep Fusion Model of Mild Cognitive Impairment.</font> In <i>IEEE 17th International Symposium on Biomedical Imaging (ISBI).</i></li>
+  <!-- 2021 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div>
+    <span class="year">2021</span>
 
-  <li>Wang, L., <b>Zhang, L., </b> and Zhu, D., (2019).  <font style="color: #004080">Accessing Latent Connectome of Mild Cognitive Impairment via Discriminant Structure Learning.</font> In <i>IEEE 16th International Symposium on Biomedical Imaging (ISBI).</i></li>
-</ol>
+    <!-- Publication Items for 2021 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">MedIA</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Deep fusion of brain structure-function in mild cognitive impairment</div>
+        <div class="authors"><b>Zhang, L.</b>, Wang, L., Gao, J., Risacher, S.L., Yan, J., Li, G., Liu, T. and Zhu, D.</div>
+        <div class="authors">Medical Image Analysis 2021  <spam style="color:#22CE83; font-weight: bold;"> (IF: 13.828)</spam></div>
+      </div>
+    </div>
 
-<h2><font style="margin-left: 10px">AI in Brain Fundamental Organization Principles</font></h2>
-<ol type="1">
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">ISBI'21</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Jointly Analyzing Alzheimer’s Disease Related Structure-Function Using Deep Cross-Model Attention Network</div>
+        <div class="authors"><b>Zhang, L.</b>, Wang, L., and Zhu, D.</div>
+        <div class="authors">ISBI 2021 </div>
+        <div class="additional_info"></span> <span style="color: #FF8C00;">Oral</span></div>
+      </div>
+    </div>
 
-  <li><b>Zhang, L., </b>  Wu, Z., Yu, X., Lyu, Y., Dai, H., Zhao, L., Wang, L., Li, G., Wang, X., Liu, T.*, and Zhu, D.* (2023). <font style="color: #004080">Learning Lifespan Brain Anatomical Correspondence via Cortical Developmental Continuity Transfer.</font> <i> IEEE Transactions on Neural Networks and Learning Systems (TNNLS).</i> <b> (IF: 14.255) </b> * Co-corresponding authors. (Under Review)</li>
-
-  <li><b>Zhang, L., </b>  Wang, L. and Zhu, D. (2022). <font style="color: #004080">Predicting brain structural network using functional connectivity.</font> <i> Medical Image Analysis (MedIA). </i> <b> (IF: 13.828) </b></li>
-
-  <li><b>Zhang, L., </b>   Zhao, L., Liu, D., Wu, Z., Wang, X., Liu, T. and Zhu, D. (2022). <font style="color: #004080">Cortex2vector: Anatomical Embedding of Cortical Folding Patterns.</font> <i> Cerebral Cortex. </i> <b> (IF: 5.998) </b></li>
-
-  <li><b>Zhang, L., </b>  Wang, L. and Zhu, D., (2020). <font style="color: #004080">Recovering brain structural connectivity from functional connectivity via multi-GCN based generative adversarial network.</font> In <i> the 23rd International Conference on Medical mage Computing and Computer-Assisted Intervention (MICCAI).</i> (<b><font style="color: #f50707">Early Accepted, Rate: 13.3%; </font> <font style="color: #c203fc"> Prestigious Young Scientist Award (Best Paper Award), Rate: 4/1809 =0.2%; </font> <font style="color: #0432FF;"> Oral</font></b>)</li>
-
-  <li>Zhang, S., Zhang, T., He, Z., Li, X., <b>Zhang, L., </b> Zhu, D., Jiang, X., Liu, T., Han, J. and Guo, L., (2023). <font style="color: #004080">Gyral peaks and patterns in human brains.</font> <i> Cerebral Cortex. </i> <b> (IF: 5.998) </b></li>
-
-  <li>Gao, X., Zhang, X., <b>Zhang, L., </b> Xu, X. and Zhu, D. (2023). <font style="color: #004080">Predicting Diverse Functional Connectivity from Structural Connectivity Based on Multi-contexts Discriminator GAN.</font> In <i> the 26th International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI).</i> (<b><font style="color: #f50707">Early Accepted, Rate: 13.3%</font></b>)</li>
-
-  <li>Yu, X., Hu, D., <b>Zhang, L., </b> Huang, Y., Wu, Z., Liu, T., Wang, L., Lin, W., Zhu, D., and Li. G.  (2022). <font style="color: #004080">Longitudinal Infant Functional Connectivity Prediction via Conditional Intensive Triplet Network.</font> In <i> the 25th International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI).</i></li>
-
-  <li>Zaman, A., <b>Zhang, L., </b> Yan, J. and Zhu, D. (2019). <font style="color: #004080">Multi-modal image prediction via spatial hybrid U-Net.</font> In <i> the Multiscale Multimodal Medical Imaging (MMMI).</i> (<b></font> <font style="color: #c203fc"> Best Oral Paper Award, Rate: 10%; </font> <font style="color: #0432FF;"> Oral</font></b>)</li>
-
-</ol>
-
-
-<h2><font style="margin-left: 10px">Brain Inspired AI</font></h2>
-<ol type="1">
-  <li>Zhao, L.*, <b>Zhang, L.*, </b>  Wu, Z., Chen, Y., Dai, H., Yu, X., Liu, Z., Zhang, T., Hu, X., Jiang, X. and Li, X. (2023). <font style="color: #004080">When brain-inspired ai meets agi.</font> <i> Meta-Radiology.</i> <b>* co-first authors</b></li>
-
-  <li>Yu, X.*, <b>Zhang, L.*, </b> Dai, H., Zhao, L., Lyu, Y., Liu, T. and Zhu, D., (2023). <font style="color: #004080">Core-Periphery Principle Guided Redesign of Self-Attention in Transformers.</font> <i> IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).</i> <b>* co-first authors</b>. (<b>IF: 24.314</b>). (Under Review) </li>
-
-  <li>Yu, X., <b>Zhang, L., </b> Zhu, D. and Liu, T. (2023). <font style="color: #004080">Robust Core-Periphery Constrained Transformer for Domain Adaptation.</font> <i> arXiv preprint arXiv:2308.13515.</i> </li>
-
-  <li>Chen, Y., Xiao, Z., Du, Y., Zhao, L., <b>Zhang, L., </b> Wu, Z., Liu, D., Zhu, D., Zhang, T., Hu, X., Liu, T., and Jiang, X., (2023). <font style="color: #004080">A Unified and Biologically-Plausible Relational Graph Representation of Vision Transformers.</font> <i> IEEE Transactions on Neural Networks and Learning Systems (TNNLS).</i>(<b>IF: 14.255</b>)</li>
-
-  <li>Zhao, L., Dai, H., Wu, Z., Xiao, Z., <b>Zhang, L., </b> Liu, D.W., Hu, X., Jiang, X., Li, S., Zhu, D. and Liu, T. (2023). <font style="color: #004080">Coupling visual semantics of artificial neural networks and human brain function via synchronized activations.</font> <i> IEEE Transactions on Cognitive and Developmental Systems (TCDS).</i>(<b>IF: 4.546</b>)</li>
-
-  <li>Huang, H., Zhao, L., Hu, X., Dai, H., <b>Zhang, L.*, </b>  Zhu, D. and Liu, T. (2023). <font style="color: #004080">BI AVAN: Brain inspired adversarial visual attention network.</font> <i> IEEE Transaction on Multimedia.</i>(<b>IF: 8.182</b>) (Under Review)</li>
-</ol>
-
-
-<h2><font style="margin-left: 10px">Large Foundation Model/Large Language Model</font></h2>
-<ol type="1">
-  <li>Wu, Z.*, <b>Zhang, L.*, </b> Cao, C.*, Yu, X., Dai, H., Ma, C., Liu, Z., Zhao, L., Li, G., Liu, W. and Li, Q., (2023). <font style="color: #004080">Exploring the trade-offs: Unified large language models vs local fine-tuned models for highly-specific radiology nli task.</font> <i> arXiv preprint arXiv:2304.09138.</i> <b>* co-first authors</b>. (<b>Citation: 32</b>)</li>
-
-  <li>Li, X.*, Zhao, L.*, <b>Zhang, L.*, </b> Wu, Z., Liu, Z., X. S., Yuan, Y., Liu, J., Li, G., Zhu, D., Yan, P., Li, Q., and Liu, W. (2023).  <font style="color: #004080">Artificial General Intelligence for Medical Imaging.</font> <i> arXiv preprint arXiv:2306.05480.</i> <b>* co-first authors</b>. (<b>Citation: 20</b>)</li>
-
-  <li>Liu, Z.*, Yu, X.*, <b>Zhang, L.*, </b> Wu, Z., Cao, C., Dai, H., Zhao, L., Liu, W., Shen, D., Li, Q. and Liu, T. (2023).  <font style="color: #004080">Deid-gpt: Zero-shot medical text de-identification by gpt-4.</font> <i> arXiv preprint arXiv:2303.11032.</i> <b>* co-first authors</b>. (<b>Citation: 98</b>)</li>
-
-    <li>Liu, Z., <b>Zhang, L., </b>  Wu, Z., Yu, X., Cao, C., Dai, H., Liu, N., Liu, J., Liu, W., Li, Q. and Shen, D. (2023). <font style="color: #004080">Surviving ChatGPT in Healthcare.</font> <i> Frontiers in Radiology.</i> </li>
-
-    <li>Xiao, Z., Chen, Y., Yao, J., <b>Zhang, L., </b>  Wu, Z., Yu, X., Pan, Y., Zhao, L., Ma, C., Liu, X. and Liu, W. (2023). <font style="color: #004080">Instruction-vit: Multi-modal prompts for instruction learning in vit.</font> <i> Information Fusion.</i> (<b>(IF: 18.6)</b>)</li>
-
-  <li>Zhang, L., Liu, Z., <b>Zhang, L., </b>  Wu, Z., Yu, X., Holmes, J., Feng, H., Dai, H., Li, X., Li, Q. and Zhu, D. (2023). <font style="color: #004080">Segment Anything Model (SAM) for Radiation Oncology.</font> <i> arXiv preprint arXiv:2306.11730.</i> (<b>Citation: 18</b>)</li>
-
-  <li>Liu, Z., Zhong, T., Li, Y., Zhang, Y., Pan, Y., Zhao, Z., Dong, P., Cao, C., Liu, Y., Shu, P., Wei, Y., Wu, Z., Ma, C., Wang, J., Wang, S., Zhou, M., Jiang, Z., Li, C., Holmes, J., Xu, S., <b>Zhang, L., </b>  Dai, H., Zhang, K., Zhao, L., Chen, Y., Liu, X., Wang, P., Yan, P., Liu, J., Ge, B., Sun, L., Zhu, D., Li, X., Liu, W., Cai, X., Hu, X., Jiang, X., Zhang, S., Zhang, X., Zhang, T., Zhao, S., Li, Q., Zhu, H., Shen, D., and Liu, T. (2023). <font style="color: #004080">Evaluating large language models for radiology natural language processing.</font> <i> arXiv preprint arXiv:2307.13693.</i> (<b>Citation: 11</b>)</li>
-
-  <li>Liu, C., Liu, Z., Holmes, J., <b>Zhang, L., </b>  Zhang, L., Ding, Y., Shu, P., Wu, Z., Dai, H., Li, Y. and Shen, D. (2023). <font style="color: #004080">Artificial General Intelligence for Radiation Oncology.</font> <i> arXiv preprint arXiv:2309.02590.</i>(<b>Citation: 9</b>) </li>
-</ol>
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">Alzheimer's & Dementia</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Free water in T2 FLAIR white matter hyperintensity lesions</div>
+        <div class="authors">Yu, X., Scheel, N., <b>Zhang, L.</b>, Zhu, D.C., Zhang, R. and Zhu, D.</div>
+        <div class="authors">Alzheimer’s & Dementia 2021</div>
+      </div>
+    </div>
+  </div>
 
 
-<div id="footer">
-<div id="footer-text">
-Page generated 2022-05-23 09:41:03 CST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+  <!-- 2020 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div>
+    <span class="year">2020</span>
+
+    <!-- Publication Items for 2020 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">ISBI'20</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Learning Latent Structure Over Deep Fusion Model of Mild Cognitive Impairment.</div>
+        <div class="authors">Wang, L., <b>Zhang, L.</b>, and Zhu, D.</div>
+        <div class="authors">ISBI 2020 </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2019 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div>
+    <span class="year">2019</span>
+
+    <!-- Publication Items for 2019 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">MLMI'19</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">A Cascaded Multi-Modality Analysis in Mild Cognitive Impairment.</div>
+        <div class="authors"><b>Zhang, L.</b>, Zaman, A., Wang, L., Yan, J. and Zhu, D.</div>
+        <div class="authors">International Workshop on Machine Learning in Medical Imaging (MLMI) 2019  <spam style="color:#22CE83; font-weight: bold;"> (IF: 13.828)</spam></div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">ISBI'19</span>
+      </div>
+      <div class="publication-info">
+        <div class="title"> Accessing Latent Connectome of Mild Cognitive Impairment via Discriminant Structure Learning.</div>
+        <div class="authors">Wang, L., <b>Zhang, L.</b>, and Zhu, D.</div>
+        <div class="authors">ISBI 2019 </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+
+<!-- AI in Uncovering Fundamental Principles of Brain Structure-Function Organization Theme -->
+<div class="publication-list">
+  <div class="theme-title">AI in Uncovering Fundamental Principles of Brain Structure-Function Organization</div>
+
+  <!-- 2025 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div>
+    <span class="year">2025</span>
+
+    <!-- Publication Items for 2025 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">MedIA</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Learning Lifespan Brain Anatomical Correspondence via Cortical Developmental Continuity Transfer.</div>
+        <div class="authors"><b>Zhang, L.</b>, Wu, Z., Yu, X., Lyu, Y., Dai, H., Zhao, L., Wang, L., Li, G., Wang, X., Liu, T.*, and Zhu, D.* </div>
+        <div class="authors">Medical Image Analysis 2025  <spam style="color:#22CE83; font-weight: bold;"> (IF: 13.828)</spam></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2024 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div>
+    <span class="year">2024</span>
+
+    <!-- Publication Items for 2024 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">ISBI'24</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Mild Cognitive Impairment Classification Using A Novel Finer-Scale Brain Connectome.</div>
+        <div class="authors">Lyu, Y., <b>Zhang, L.</b>, Yu, X., Cao, C., Liu, T., and Zhu, D. </div>
+        <div class="authors">ISBI 2024 </div>
+      </div>
+    </div>
+
+     <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">ISBI'24</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Mild Cognitive Impairment Classification Using A Novel Finer-Scale Brain Connectome.</div>
+        <div class="authors">Cao, C., Yu, X.,  <b>Zhang, L.</b>, Chen, T., Lyu, Y., Liu, T., and Zhu, D. </div>
+        <div class="authors">ISBI 2024 </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2023 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div>
+    <span class="year">2023</span>
+
+    <!-- Publication Items for 2023 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">Cerebral Cortex</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Cortex2vector: Anatomical Embedding of Cortical Folding Patterns.</div>
+        <div class="authors"><b>Zhang, L.</b>, Zhao, L., Liu, D., Wu, Z., Wang, X., Liu, T. and Zhu, D.</div>
+        <div class="authors">Cerebral Cortex 2023  <spam style="color:#22CE83; font-weight: bold;"> (IF: 5.998)</spam></div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">Cerebral Cortex</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Gyral peaks and patterns in human brains.</div>
+        <div class="authors">Zhang, S., Zhang, T., He, Z., Li, X., <b>Zhang, L.</b>, Zhu, D., Jiang, X., Liu, T., Han, J. and Guo, L. </div>
+        <div class="authors">Cerebral Cortex 2023  <spam style="color:#22CE83; font-weight: bold;"> (IF: 5.998)</spam></div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">MICCAI'23</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Predicting Diverse Functional Connectivity from Structural Connectivity Based on Multi-contexts Discriminator GAN.</div>
+        <div class="authors">Zhang, S., Zhang, T., He, Z., Li, X., <b>Zhang, L.</b>, Zhu, D., Jiang, X., Liu, T., Han, J. and Guo, L. </div>
+        <div class="authors">MICCAI 2023 </div>
+        <div class="additional_info"><span style="color: #C45AEC;">Early Accepted (13.6%)</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 2022 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div>
+    <span class="year">2022</span>
+
+    <!-- Publication Items for 2022 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">MedIA</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Predicting brain structural network using functional connectivity</div>
+        <div class="authors"><b>Zhang, L.</b>, Wang, L. and Zhu, D.</div>
+        <div class="authors">Medical Image Analysis 2022  <spam style="color:#22CE83; font-weight: bold;"> (IF: 13.828)</spam></div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">MICCAI'22</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Longitudinal Infant Functional Connectivity Prediction via Conditional Intensive Triplet Network.</div>
+        <div class="authors">Yu, X., Hu, D., <b>Zhang, L.</b>, Huang, Y., Wu, Z., Liu, T., Wang, L., Lin, W., Zhu, D., and Li. G.</div>
+        <div class="authors">MICCAI 2022 </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2020 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div>
+    <span class="year">2020</span>
+
+    <!-- Publication Items for 2020 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">MICCAI'20</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Recovering brain structural connectivity from functional connectivity via multi-GCN based generative adversarial network.</div>
+        <div class="authors"><b>Zhang, L.</b>, Wang, L. and Zhu, D. </div>
+        <div class="authors">MICCAI 2020 </div>
+        <div class="additional_info">Prestigious Young Scientist Award (Best Paper Award, 4/1809 =0.2%); <span style="color: #C45AEC;">Early Accepted (13.3%); </span> <span style="color: #FF8C00;">Oral</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2019 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div>
+    <span class="year">2019</span>
+
+    <!-- Publication Items for 2019 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">MMMI'19</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Multi-modal image prediction via spatial hybrid U-Net.</div>
+        <div class="authors">Zaman, A., <b>Zhang, L.</b>,  Yan, J. and Zhu, D. </div>
+        <div class="authors">International Workshop on Multiscale Multimodal Medical Imaging (MMMI) 2019 </div>
+        <div class="additional_info">Best Oral Paper Award (10%)</div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<!-- Brain Foundation Model/Healthcare Foundation Model -->
+<div class="publication-list">
+  <div class="theme-title">Brain Foundation Model/Healthcare Foundation Model</div>
+
+  <!-- 2025 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div>
+    <span class="year">2025</span>
+
+    <!-- Publication Items for 2025 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">IEEE TBD</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Exploring the trade-offs: Unified large language models vs local fine-tuned models for highly-specific radiology nli task.</div>
+        <div class="authors">Wu, Z.<sup>*</sup>, <b>Zhang, L.<sup>*</sup></b>, Cao, C.<sup>*</sup>, Yu, X., Liu, Z., Zhao, L., ... & Liu, T. </div>
+        <div class="authors">IEEE Transactions on Big Data 2025 <spam style="color:#22CE83; font-weight: bold;"> (IF: 7.5); </spam><spam style="font-weight: bold;">  (* co-first authors)</spam></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2024 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div>
+    <span class="year">2024</span>
+
+    <!-- Publication Items for 2024 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">IEEE RBME</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Artificial General Intelligence for Medical Imaging.</div>
+        <div class="authors">Li, X.<sup>*</sup>, Zhao, L.<sup>*</sup>, <b>Zhang, L.<sup>*</sup></b>, Wu, Z., Liu, Z., Jiang, H., ... & Shen, D. </div>
+        <div class="authors">IEEE Reviews in Biomedical Engineering 2024 <spam style="color:#22CE83; font-weight: bold;"> (IF: 17.2); </spam><spam style="font-weight: bold;">  (* co-first authors)</spam></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2023 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div>
+    <span class="year">2023</span>
+
+    <!-- Publication Items for 2023 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">arXiv</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Deid-gpt: Zero-shot medical text de-identification by gpt-4.</div>
+        <div class="authors">Liu, Z.<sup>*</sup>, Yu, X.<sup>*</sup>, <b>Zhang, L.<sup>*</sup></b>, Wu, Z., Cao, C., Dai, H., Zhao, L., Liu, W., Shen, D., Li, Q. and Liu, T. </div>
+        <div class="authors">arXiv preprint arXiv:2303.11032. 2023 <spam style="color:#22CE83; font-weight: bold;"> (Citation: 191); </spam><spam style="font-weight: bold;">  (* co-first authors)</spam></div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">Information Fusion</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Instruction-vit: Multi-modal prompts for instruction learning in vit.</div>
+        <div class="authors">Xiao, Z., Chen, Y., Yao, J., <b>Zhang, L.</b>, Yao, J., Wu, Z., Yu, X., ... & Jiang, X.</div>
+        <div class="authors">Information Fusion 2023 <spam style="color:#22CE83; font-weight: bold;"> (IF: 18.6); </spam></div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">Frontiers in Radiology</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Surviving ChatGPT in Healthcare.</div>
+        <div class="authors">Liu, Z., <b>Zhang, L.</b>, Wu, Z., Yu, X., Cao, C., Dai, H., Liu, N., Liu, J., Liu, W., Li, Q. and Shen, D. </div>
+        <div class="authors">Frontiers in Radiology 2023 </div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">Meta-Radiology</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Artificial General Intelligence for Radiation Oncology.</div>
+        <div class="authors">Liu, C., Liu, Z., Holmes, J., <b>Zhang, L.</b>, Zhang, L., Ding, Y., Shu, P., Wu, Z., Dai, H., Li, Y. and Shen, D. </div>
+        <div class="authors">Meta-Radiology 2023 </div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">arXiv</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Segment Anything Model (SAM) for Radiation Oncology.</div>
+        <div class="authors">Zhang, L., Liu, Z., <b>Zhang, L.</b>, Wu, Z., Yu, X., Holmes, J., Feng, H., Dai, H., Li, X., Li, Q. and Zhu, D. </div>
+        <div class="authors">arXiv preprint arXiv:2306.11730.  2023 <spam style="color:#22CE83; font-weight: bold;"> (Citation: 33)</div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">arXiv</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">valuating large language models for radiology natural language processing.</div>
+        <div class="authors">Liu, Z., Zhong, T., Li, Y., Zhang, Y., Pan, Y., Zhao, Z., ... & Liu, T. </div>
+        <div class="authors">arXiv preprint arXiv:2307.13693.  2023 <spam style="color:#22CE83; font-weight: bold;"> (Citation: 38)</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Brain Inspired AI -->
+<div class="publication-list">
+  <div class="theme-title">Brain Inspired AI</div>
+
+  <!-- 2024 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div>
+    <span class="year">2024</span>
+
+    <!-- Publication Items for 2024 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">IEEE TMI</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Core-Periphery Multi-Modality Feature Alignment for Zero-Shot Medical Image Analysis</div>
+        <div class="authors">Yu, X., <b>Zhang, L.</b>, Wu, Z., and Zhu, D. </div>
+        <div class="authors"> IEEE Transactions on Medical Imaging 2024 <spam style="color:#22CE83; font-weight: bold;"> (IF: 8.9)</spam></div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">MICCAI'24</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Gyri vs. sulci: Core-periphery organization in functional brain networks.</div>
+        <div class="authors">Yu, X., <b>Zhang, L.</b>, Cao, C., Chen, T., Lyu, Y., Zhang, J., Liu, T., and Zhu, D. </div>
+        <div class="authors">MICCAI 2024 </div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">MICCAI'24</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">CP-CLIP: Core-Periphery Feature Alignment CLIP for Zero-Shot Medical Image Analysis.</div>
+        <div class="authors">Yu, X., Wu, Z., <b>Zhang, L.</b>, Zhang, J., Lyu, Y.,and Zhu, D. </div>
+        <div class="authors">MICCAI 2024 </div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">IEEE TNNLS</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">A Unified and Biologically Plausible Relational Graph Representation of Vision Transformers.</div>
+        <div class="authors">hen, Y., Xiao, Z., Du, Y., Zhao, L., <b>Zhang, L.</b>, Wu, Z., Zhu, D., Zhang, T., Yao, D., Hu, X. and Liu, T. </div>
+        <div class="authors">IEEE Transactions on Neural Networks and Learning Systems 2024 <spam style="color:#22CE83; font-weight: bold;"> (IF: 14.255)</spam></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2023 Year Block -->
+  <div class="year-block">
+    <div class="year-line"></div>
+    <span class="year">2023</span>
+
+    <!-- Publication Items for 2023 -->
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">Meta-Radiology</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">When brain-inspired ai meets agi.</div>
+        <div class="authors">Zhao, L.<sup>*</sup>, <b>Zhang, L.<sup>*</sup></b>, Wu, Z., Chen, Y., Dai, H., Yu, X., ... & Liu, T. </div>
+        <div class="authors">Meta-Radiology 2023 <spam style="font-weight: bold;">  (* co-first authors)</spam></div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">IEEE TM</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">BI-AVAN: A Brain-Inspired Adversarial Visual Attention Network for Characterizing Human Visual Attention From Neural Activity. </div>
+        <div class="authors">Huang, H., Zhao, L., Dai, H., <b>Zhang, L.</b>, Hu, X., Zhu, D., & Liu, T.  </div>
+        <div class="authors">IEEE Transactions on Multimedia 2023 <spam style="color:#22CE83; font-weight: bold;"> (IF: 8.4)</spam></div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="conference-box-container">
+        <span class="conference-box">IEEE TCDS</span>
+      </div>
+      <div class="publication-info">
+        <div class="title">Coupling visual semantics of artificial neural networks and human brain function via synchronized activations.</div>
+        <div class="authors">Zhao, L., Dai, H., Wu, Z., Xiao, Z., <b>Zhang, L.</b>, Liu, D.W., Hu, X., Jiang, X., Li, S., Zhu, D. and Liu, T. </div>
+        <div class="authors">IEEE Transactions on Cognitive and Developmental Systems 2023 <spam style="color:#22CE83; font-weight: bold;"> (IF: 4.546)</spam></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 </td>
 </tr>
 </table>
 </body>
 </html>
+
+
